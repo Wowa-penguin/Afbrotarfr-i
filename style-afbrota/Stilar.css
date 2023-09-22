@@ -1,0 +1,143 @@
+p {
+  font-size: 22px;
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 1.2;
+}
+
+.tilvísun {
+  font-size: 15px;
+}
+
+h1 {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.FÉLA3AB05 {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.hægri-byrjun {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.heder{
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.heder-fyrir-afanga{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.div-heiti{
+  display: flex;
+  justify-content: center;
+}
+
+.untir-titil {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.heiti{
+  font-size: 75px;
+}
+
+
+
+
+
+/* Allt eftir buttons */
+
+
+
+.buttons-texsti {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+
+.div-button {
+  display: flex;
+  justify-content: center;
+  gap: 75px;
+}
+
+.U-button{
+  margin-top: 50px;
+  padding: 25px;
+  font-size: 19px;
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  background-color: #45bfa7;
+  transition: background-color 0.5s ease;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  transition: box-shadow 0.5s;
+}
+
+.U-button:hover {
+  background-color: #ab2035;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  opacity: 0.8;
+}
+
+.U-button:active {
+  opacity: 0.5;
+}
+
+.Upphafssíða {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.Upphafssíða-texsti {
+  display: flex;
+  flex-direction:column;
+  gap: 5px;
+  height: 25rem;
+  width: 40rem;
+  margin-left: 8rem;
+}
+
+.myndir-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Mynd {
+  width: 20rem;
+  height: 13rem;
+}
+
+.mynd-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.smá-í-endan {
+  height: 2rem;
+}
+
+.smá-bil{
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.Mynd-rán {
+  width: 28rem;
+  height: 18rem;
+}

@@ -1,0 +1,50 @@
+.dómar-Div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tíðniDiv-fíkniefni {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dómar-Texsti {
+  width: 500px;
+}
+
+.buttons-dómar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.dómurinn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dóma-button-stíl {
+  width: 70%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #75d9fa;
+  cursor: pointer;
+}
+
+.dóma-button-stíl:hover {
+  opacity: 70%;
+}
+
+.mynd-afbrotarmaður {
+  width: 400px;
+  align-self: center;
+}
+
+.myndir {
+  width: 100%;
+}

@@ -1,0 +1,120 @@
+.fræðlegi-texsti {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  height: 25rem;
+  width: 42rem;
+  margin-left: 8rem;
+  margin-bottom: 2rem;
+}
+
+.tíðniDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tíðniDiv-fíkniefni {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.myndir-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Mynd-rán {
+  width: 28rem;
+  height: 18rem;
+}
+
+.Mynd-dómsalur {
+  width: 28rem;
+  height: 18rem;
+}
+
+.mynd-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.tíðanaTexsti {
+  width: 500px;
+}
+
+.buttons-tíðni {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.buttons-stílar  {
+  width: 70%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #69a10a;
+  cursor: pointer;
+}
+
+.buttons-stílar:hover {
+  opacity: 70%;
+}
+
+.útkýring-á-tíðni {
+  display: flex;
+  justify-content: center;
+}
+
+.tíðni-utkoma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Samanburður{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.smá-bil{
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.Sma-í-enda {
+  margin-bottom: 30px;
+}
+
+.efri-fánar {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.neðri-fánar {
+  display: flex;
+  gap: 25px;
+}
+
+.fána-myndir {
+  height: 150px;
+  width: 230px;
+}
+
+.mynd-öriki-landa {
+  width: 24rem;
+  height: 27rem;
+}
+
+.öriki-mynd {
+  width: 100%;
+  height: 100%;
+}
