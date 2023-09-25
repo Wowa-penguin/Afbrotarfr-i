@@ -14,6 +14,7 @@ height: auto;
 display: flex;
 flex-direction: column;
 gap: 1rem;
+margin-top: 2rem;
 }
 
 .inra-div-2 {
@@ -31,6 +32,9 @@ gap: 1rem;
 .fyrsta-mynd-div-innan-div-2 {
   width: auto;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .hlutfarl {
@@ -53,27 +57,19 @@ gap: 1rem;
   gap: 10px;
 }
 
-
-
-
-/* .seini-mynd-div-innan-div-2 {
-  border: solid 1px red;
-  width: 50%;
-  height: 100%; 
-} */
-
-.div-3 {
-border: solid 1px blue;
-width: 50%;
-height: auto;
-display: flex;
-flex-direction: column;
-gap: 1rem;
+.mynd-súla {
+  width: 20rem;
 }
 
-.inra-div-3 {
-  border: solid 1px blue;
-  width: 100%;
-  height: 100%;
+.x-button {
+  border: none;
+  border-radius: 90px;
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(152, 12, 12);
+  color: white;
 }
 
+.x-button:hover {
+  opacity: 70%;
+}
