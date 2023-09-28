@@ -1,7 +1,7 @@
 const timi = new Date;
 
 const dagur = timi.getDate()
-const mánuður = '9'
+const mánuður = '09'
 const ár = timi.getFullYear()
 
 let dagurS = dagur.toString()
